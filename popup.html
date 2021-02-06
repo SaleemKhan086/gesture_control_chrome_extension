@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="jquery-3.5.1.js"></script>
+    <script src="popup.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Chivo' rel='stylesheet'>
+    <link rel="stylesheet" href="popup.css">
+    <title></title>
+  </head>
+  <body >
+    <h4>GESTURES AND ACTIONS </h4> <br />
+       <div style="float: left; margin-right: 10px;">
+         <i class="iconG1"></i><br/>
+         <label>Fist</label>
+       </div>
+       <div style="float: left; margin-right: 10px;">
+        <i class="iconG2"></i><br/>
+        <label>One <br/>Finger</label>
+      </div>
+      <div style="float: left; margin-right: 10px;">
+        <i class="iconG3"></i><br/>
+        <label>Two <br/>Finger</label>
+      </div>
+      <div style="float: left; margin-right: 10px;">
+        <i class="iconG4"></i><br/>
+        <label>Three <br/>Finger</label>
+      </div>
+      <div style="float: left; margin-right: 10px;">
+        <i class="iconG5"></i><br/>
+        <label>Four <br/>Finger</label>
+      </div>
+      <div style="float: left; margin-right: 10px;">
+        <i class="iconG6"></i><br/>
+        <label>Five <br/>Finger</label>
+      </div><br/>
+      <br/><br/>
+    <h4 id = "show">Select Gestures:</h4>
+    <input type="hidden" id="result" value="0">
+    <div class="dropdowns">
+        <div  class="dependent_dropdown">
+            <div class="labels">
+                <i class="iconA1"></i>
+                <label style="float: left;">Previous Tab</label>
+            </div>
+            <div class="selections_list theme-pink">
+                <select id="previous_tab" name="previous_tab"class="ui-wizard-content valid required ">
+                  <option value="none" selected>None</option>
+                  <option value=0>Fist</option>
+                  <option value=1>One Finger</option>
+                  <option value=2>Two Fingers</option>
+                  <option value=3>Three Fingers</option>
+                  <option value=4>Four Fingers</option>
+                  <option value=5>Five Fingers</option>
+              </select>
+            </div>
+        </div>
+        <div class="dependent_dropdown ">
+            <div class="labels">
+              <i class="iconA2"></i>
+              <label style="float: left;">Next Tab</label>
+            </div>
+            <div class="selections_list theme-pink">
+              <select id="next_tab" name="next_tab" class="ui-wizard-content valid required">
+                <option value="none" selected>None</option>
+                <option value=0>Fist</option>
+                <option value=1>One Finger</option>
+                <option value=2>Two Fingers</option>
+                <option value=3>Three Fingers</option>
+                <option value=4>Four Fingers</option>
+                <option value=5>Five Fingers</option>
+              </select>
+            </div>
+        </div>
+        <div class="dependent_dropdown ">
+          <div class="labels">
+                <i class="iconA3"></i>
+                <label style="float: left;">Scroll Up</label>
+          </div>
+          <div class="selections_list theme-pink">
+              <select id="scroll_up" name="scroll_up" class="ui-wizard-content valid required">
+                <option value="none" selected>None</option>
+                <option value=0>Fist</option>
+                <option value=1>One Finger</option>
+                <option value=2>Two Fingers</option>
+                <option value=3>Three Fingers</option>
+                <option value=4>Four Fingers</option>
+                <option value=5>Five Fingers</option>
+              </select>
+            </div>
+      </div>
+      <div class="dependent_dropdown ">
+          <div class="labels">
+            <i class="iconA4"></i>
+            <label style="float: left;">Scroll Down</label>
+          </div>
+          <div class="selections_list theme-pink">
+            <select id="scroll_down" name="scroll_down" class="ui-wizard-content valid required">
+              <option value="none" selected>None</option>
+              <option value=0>Fist</option>
+              <option value=1>One Finger</option>
+              <option value=2>Two Fingers</option>
+              <option value=3>Three Fingers</option>
+              <option value=4>Four Fingers</option>
+              <option value=5>Five Fingers</option>
+            </select>
+          </div>
+        </div>
+        <div class="dependent_dropdown ">
+          <div class="labels">
+            <i class="iconA6"></i>
+            <label style="float: left;">Zoom Out</label>
+          </div>
+          <div class="selections_list theme-pink">
+            <select id="zoom_out" name="zoom_out" class="ui-wizard-content valid required">
+              <option value="none" selected>None</option>
+              <option value=0>Fist</option>
+              <option value=1>One Finger</option>
+              <option value=2>Two Fingers</option>
+              <option value=3>Three Fingers</option>
+              <option value=4>Four Fingers</option>
+              <option value=5>Five Fingers</option>
+            </select>
+          </div>
+        </div>
+        <div class="dependent_dropdown ">
+            <div class="labels">
+                <i class="iconA5"></i>
+                <label style="float: left;">Zoom In</label>
+            </div>
+            <div class="selections_list theme-pink">
+                <select id="zoom_in" name="zoom_in" class="ui-wizard-content valid required">
+                  <option value="none" selected>None</option>
+                  <option value=0>Fist</option>
+                  <option value=1>One Finger</option>
+                  <option value=2>Two Fingers</option>
+                  <option value=3>Three Fingers</option>
+                  <option value=4>Four Fingers</option>
+                  <option value=5>Five Fingers</option>
+                </select>
+            </div>
+        </div>
+     </div>
+	 <p id="alert" style="color:red" hidden>Select all the options</p>
+     <div class="buttons">
+        <button id="start" class="button button1 disabled" name="start" style="margin-right: 16px">Start </button>
+        <button id="stop" class="button button2" name="stop" style="margin-right: 16px">Stop </button>
+     </div>
+  </body>
+</html>

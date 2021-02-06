@@ -1,0 +1,212 @@
+.iconA1 {
+  content: url('images/previous.png');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+.iconA2 {
+  content: url('images/next.jpeg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+.iconA3 {
+  content: url('images/scrollUp.jpg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+.iconA4 {
+  content: url('images/scrollDown.jpeg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+.iconA5 {
+  content: url('images/zoomIn.jpeg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+.iconA6 {
+  content: url('images/zoomOut.jpeg');
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  float: left;
+}
+
+.iconG1 {
+  content: url('images/fist.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.iconG2 {
+  content: url('images/1finger.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.iconG3 {
+  content: url('images/2finger.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.iconG4 {
+  content: url('images/3finger.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.iconG5 {
+  content: url('images/4Finger.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+.iconG6 {
+  content: url('images/5finger.jpeg');
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+
+#show {
+  color: #677072fa;
+  font-weight:bold;
+  font-size: 24px;
+}
+
+.dependent_dropdown{
+  margin-bottom: 15px;
+}
+
+.labels {
+  float:left;  
+  height: 25px;
+  width: 50%;
+  color: #007399;
+  font-weight:500;
+  margin-bottom: 8px;
+}
+
+.labels:hover {
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.selections_list {
+  float:right;  
+  height: 25px;
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+.button {
+  margin-top: 20px;
+  color: #008CBA;
+  font-size: 16px;
+  background-color: #00ccff;
+  font-family: 'Chivo';
+  border-radius: 14px;
+  border: none;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+h4 {
+  font-family: 'Chivo';
+  color: #09313f;
+  font-size: 26px;
+}
+
+label {
+  font-family: 'Chivo';
+  color: #032430;
+}
+
+body {
+  width:400px;
+  height:500px;
+  font-family: 'Chivo';
+  font-size: 16px;
+}
+
+.theme-pink {
+  --radius: 2em;
+  --baseFg: white;
+  --baseBg: rgba(151, 148, 144, 0.849);
+  --accentFg: rgba(78, 76, 73, 0.849);
+  --accentBg: #008CBA;
+}
+
+
+
+select {
+  font: 400 12px/1.3 sans-serif;
+  -webkit-appearance: none;
+  appearance: none;
+  color: var(--baseFg);
+  border: 1px solid var(--baseFg);
+  line-height: 1;
+  outline: 0;
+  padding: 0.65em 2.5em 0.55em 0.75em;
+  border-radius: var(--radius);
+  background-color: var(--baseBg);
+  background-image: linear-gradient(var(--baseFg), var(--baseFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentBg) 50%),
+    linear-gradient(var(--accentBg) 42%, var(--accentFg) 42%);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 1px 100%, 20px 22px, 20px 22px, 20px 100%;
+  background-position: right 20px center, right bottom, right bottom, right bottom;   
+}
+
+select:hover {
+  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
+}
+
+select:active {
+  background-image: linear-gradient(var(--accentFg), var(--accentFg)),
+    linear-gradient(-135deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(-225deg, transparent 50%, var(--accentFg) 50%),
+    linear-gradient(var(--accentFg) 42%, var(--accentBg) 42%);
+  color: var(--accentBg);
+  border-color: var(--accentFg);
+  background-color: var(--accentFg);
+}
